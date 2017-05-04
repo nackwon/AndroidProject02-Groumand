@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- actionbar color -->
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorTab">#FFFFFF</color>
+    <color name="colorFloating_right">#000000</color>
+    <color name="colorFloating_left">#000000</color>
+
+
+</resources>

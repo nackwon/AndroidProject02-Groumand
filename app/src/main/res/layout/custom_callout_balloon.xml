@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@mipmap/ic_groumand204_real_logo"
+        android:id="@+id/callout_balloon_bagde" />
+
+    <TextView
+        android:text="Grounmand 204"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/callout_balloon_bagde"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/callout_balloon_title" />
+
+    <TextView
+        android:text="구르망에 오신걸 환영합니다."
+        android:layout_toRightOf="@+id/callout_balloon_bagde"
+        android:layout_below="@id/callout_balloon_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/callout_balloon_context" />
+</RelativeLayout>

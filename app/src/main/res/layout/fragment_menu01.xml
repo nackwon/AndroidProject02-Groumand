@@ -1,0 +1,273 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="kr.hkit.groumand204_02.Menu01Fragment">
+
+    <!-- event view-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/menu01_event" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1.5"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnMove01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="#ffffffff"
+                    android:drawableTop="@mipmap/ic_menu01_today"
+                    android:text="Today menu" />
+
+                <Button
+                    android:id="@+id/btnMove02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:drawableTop="@mipmap/ic_menu01_menu"
+                    android:text="menu" />
+
+                <Button
+                    android:id="@+id/btnMove03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:drawableTop="@mipmap/ic_menu01_event"
+                    android:text="event" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1.5"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnMove04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:drawableTop="@mipmap/ic_menu01_review"
+                    android:text="review" />
+
+                <Button
+                    android:id="@+id/btnMove05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:drawableTop="@mipmap/ic_menu01_location"
+                    android:text="location" />
+
+                <Button
+                    android:id="@+id/btnMove06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:drawableTop="@mipmap/ic_menu01_time"
+                    android:text="time" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView_notice"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="#ffffffff" />
+
+                <TextView
+                    android:id="@+id/textGameTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="@string/menu01_beer_game_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textGameAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#ffff00ff" />
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView01"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer01" />
+
+                    <ImageView
+                        android:id="@+id/imageView02"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer02" />
+
+                    <ImageView
+                        android:id="@+id/imageView03"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer03" />
+
+                    <ImageView
+                        android:id="@+id/imageView04"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer04" />
+
+                    <ImageView
+                        android:id="@+id/imageView05"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer05" />
+
+                    <ImageView
+                        android:id="@+id/imageView06"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer06" />
+
+                    <ImageView
+                        android:id="@+id/imageView07"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer07" />
+
+                    <ImageView
+                        android:id="@+id/imageView08"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer08" />
+
+                    <ImageView
+                        android:id="@+id/imageView09"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer09" />
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer10" />
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer15" />
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer11" />
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer12" />
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer13" />
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"
+                        app:srcCompat="@drawable/menu01_beer14" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                app:srcCompat="@mipmap/ic_groumand204_real_logo"
+                android:id="@+id/imageView4" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
